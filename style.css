@@ -1,0 +1,89 @@
+/* Everything inside the body */
+body {
+    background-color: lightgrey; 
+    font-family: sans-serif;
+ }
+ 
+ /* All h1, paragraphs and buttons */
+ h1, p, button {
+    color: black; 
+    margin: 10px;
+ }
+ 
+ /* All h1 headings */
+ h1 {
+    color: blue;  
+    font-size: 35px;
+ } 
+ 
+ /* All paragraphs */
+ p {
+    font-size: 18px;
+ }
+ 
+ /* All buttons */
+ button {
+    background-color: lightgrey; 
+    font-size: 15px;
+    border-radius: 5px;
+ }
+ 
+ /* When mouse hovers over button change the cursor to hand */
+ button:hover 
+ {
+    cursor: pointer; 
+ }
+ 
+ /* All hyperlinks */
+ a {
+    color: blue;  
+ }
+ 
+ /* When mouse hovers over link */
+ a:hover {
+    cursor: pointer;
+ }
+ 
+ /* Any link that has been visited */
+ a:visited {
+    color: red; 
+ }
+ 
+ /* Element with the id "myDiv" */
+ #myDiv {
+    border: 5px solid grey; 
+    margin: 5px 10px 5px 10px;
+    display: block;
+    max-width: 600px;
+    overflow: hidden;                                                 /* Hide any text that can't fit inside it  */
+    transition: max-height 5s ease-in, opacity 5s, padding 5s;        /* 5 second transition applied max-height, opacity and padding */
+ }
+ 
+ /* Element with the id "numInput" */
+ #numInput {
+    position: absolute;
+    left: 20px;
+    top: 330px;
+    width: 80px;
+ }
+ 
+ /* Element with the id "convertBtn" */
+ #convertBtn {
+    position: absolute;
+    left: 10px;
+    top: 360px;
+ }
+ 
+ /* Any element with the class showText */
+ .showText {
+    max-height: 200px;
+    opacity: 1.0;
+    padding: 10px 10px 10px 10px;
+ }
+ 
+ /* Any element with the class hideText */
+ .hideText { 
+    max-height: 0px;
+    opacity: 0;
+    padding: 0px 10px 0px 10px;
+ }
